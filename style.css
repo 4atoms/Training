@@ -1,0 +1,47 @@
+body{
+    font-family: monospace;
+    
+}
+nav{
+    background-color: aquamarine;
+    height: 80px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    border: 1px solid black;
+}
+label.logo{
+    color: white;
+    font-size: 40px;
+    line-height: 60px;
+    padding: 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 50px;
+    margin:5px;
+}
+nav ul li{
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    
+}
+.image{
+    position: absolute;
+    right: 0%;
+}
+.para{
+    position: absolute;
+    left: 10%;
+    font-size: 50px;
+    font-weight: 100;
+    font-style: normal;
+    
+}
