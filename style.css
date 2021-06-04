@@ -3,12 +3,14 @@ body{
     
 }
 nav{
+   
     background-color: aquamarine;
     height: 80px;
     width: 100%;
     position: sticky;
     top: 0;
     border: 1px solid black;
+    
 }
 label.logo{
     color: white;
@@ -36,12 +38,45 @@ nav ul li{
 .image{
     position: absolute;
     right: 0%;
+    
 }
+#specific{
+    height: 450px;
+    
+}
+
 .para{
     position: absolute;
     left: 10%;
     font-size: 50px;
     font-weight: 100;
     font-style: normal;
+    color: cornflowerblue;
     
+}
+.begining{
+    text-align: center;
+    margin-top: 20%;
+    font-style: italic;
+    font-weight: 100;
+    color:blueviolet;
+    font-size: 2em;
+}
+h3{
+    color: darkgray;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+img{
+    width: 450px;
+    height: 300px;
+    margin: 10px;
+    background-color: lightgray;
+    transition: all 1s;
+}
+img:hover{
+    transform: scale(1.1);
 }
