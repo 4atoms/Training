@@ -1,0 +1,162 @@
+nav{
+    width:100%;
+    height:10%;
+    border: 1px solid black;
+}
+label.logo{
+    color:cornflowerblue;
+    font-size:45px;
+    padding:200px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right:200px;
+    margin-top:20px;
+    font-size: 20px;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    padding:22px;
+    margin-top: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+}
+.box{
+    color: cornflowerblue;
+    border: 1px solid blueviolet;
+    border-radius:5%;
+    padding-bottom:5px;
+    padding-top:5px;
+    padding-left:10px;
+    padding-right: 10px;
+}
+button{
+    padding:20px;
+    background-color:cornflowerblue;
+    border-radius:5px;
+    border: none;
+}
+p{
+    font-size:larger;
+}
+.col-md-6{
+    width:50%;
+    height:50%;
+    float:left;
+}
+.col-md-12{
+    width:100%;
+    height:25%;
+}
+.img{
+    width:100%;
+    height:660px;
+}
+.col-md-2 {
+    width:10%;
+    height:100%;
+    float: left;
+}
+
+.col-md-8 {
+    width:80%;
+    height:80%;
+    float: left;
+}
+h5{
+    text-align:center;
+}
+.below p{
+    text-align: center;
+    font-size:30px;
+    font-weight: bold;
+}
+.content{
+    height:80%;
+}
+.digital{
+    background-color:aliceblue;
+    text-align:center;
+    width:31%;
+    height:400px;
+    margin:1%;
+    padding-top:12px;
+    float:left;
+}
+.img1{
+    height:100px;
+    width:100px;
+    border-radius:50%;
+    text-align: center;
+    padding-top:40px;
+}
+.cms{
+    background-color:lightyellow;
+    text-align: center;
+    width:31%;
+    padding-top: 12px;
+    height:380px;
+    margin:1%;
+    float:left;
+}
+.headline{
+    background-color:lightcyan;
+    text-align:center;
+    width:31%;
+    height:400px;
+    margin:1%;
+    padding-top:12px;
+    float:left;
+}
+.digital p{
+    font-size:20px;
+    font-weight: lighter;
+    
+}
+.cms p{
+    font-size:20px;
+    font-weight: lighter;
+    
+}
+.headline p{
+    font-size:20px;
+    font-weight: lighter;
+    
+}
+.contenthub{
+    width:100%;
+    height:90%;
+}
+.col-md-81{
+    width:46%;
+    height:100%;
+    float: left;
+    margin:2%;
+}
+.col-md-82{
+    width:46%;
+    height:100%;
+    float:left;
+    margin:2%;
+}
+.img2{
+    height:95%;
+    width:100%;
+}
+.col-md-82 p{
+    font-size:20px;
+    font-weight: lighter;
+    text-align: left;
+}
+.col-md-82 div{
+    width:100%;
+    height:20%;
+}
+.service{
+    width:100%;
+    height:80%;
+    background-color:aliceblue;
+}
