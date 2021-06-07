@@ -38,10 +38,12 @@ nav ul li{
 .image{
     position: absolute;
     right: 0%;
+    background-color: white;
     
 }
 #specific{
     height: 450px;
+    background-color: white;
     
 }
 
@@ -51,12 +53,12 @@ nav ul li{
     font-size: 50px;
     font-weight: 100;
     font-style: normal;
-    color: cornflowerblue;
+    color: #445474;
     
 }
 .begining{
     text-align: center;
-    margin-top: 20%;
+    margin-top: 35%;
     font-style: italic;
     font-weight: 100;
     color:blueviolet;
@@ -65,18 +67,67 @@ nav ul li{
 h3{
     color: darkgray;
 }
-.container{
+.holdingcontainer{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    width: 100%;
+    
+}
+.internalcontainer{
+    flex: 1;
+    
+}
+.internalcontainer{
+    flex: 1;
+
+}
+.internalcontainer{
+    flex: 1;
+    background:white;
 }
 img{
     width: 450px;
     height: 300px;
-    margin: 10px;
+    margin: 5px;
+    padding: 20px;
     background-color: lightgray;
-    transition: all 1s;
 }
-img:hover{
-    transform: scale(1.1);
+.textcent{
+    text-align: center;
+    font-style: italic;
+    font-size: 2em;
+    
+}
+.paradec{
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    color: gray;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+}
+.subcontainer{
+    flex: 2;
+}
+.subcontainer{
+    flex: 1;
+}
+#cool{
+    width: 700px;
+    height: 450px;
+    background-color: white;
+}
+
+.button{
+    background-color: purple;
+    border: none;
+    color:white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
 }
