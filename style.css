@@ -1,0 +1,202 @@
+body{
+    
+    
+    background: white;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+
+.sticky{
+
+    border: 3px solid;
+    background-color: white;
+    padding: 20px;
+    margin: 0px 0;
+    position: sticky;
+    top: 0;
+}
+
+.fa{
+
+    border-radius: 4px;
+    padding: 12px;
+    margin-left: 10px;
+    background-color: rgba(124, 88, 182, 0.808);
+    text-align: center;
+
+}
+
+
+
+.maincontainer {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    text-align: center;
+    
+
+
+}
+
+
+
+.top{
+    flex: 49.9%;
+    margin-top: 50px;
+    padding-top: 70px;
+}
+
+
+
+.image{
+    flex: 49.9%;
+    margin-top: 70px;
+
+}
+
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 40px;
+    text-align: center;
+
+
+
+}
+
+
+
+
+
+.last{
+    height: 100%;
+    width: 50%;
+    display: inline-block;
+    font-size: medium;
+}
+
+.discover{
+    margin-right: 120px;
+    background-color: rgb(150 120 225);
+    color: white;
+    font-size: 150%;
+
+}
+
+.image3{
+    width:  49%;
+    display: inline-block;
+
+}
+
+
+
+
+.holder {
+    display: flex;
+    width: 90%;
+    
+}
+
+
+
+.inner{
+    flex: 3;
+    
+}
+.inner{
+    flex: 1;
+
+}
+.inner{
+    flex: 1;
+    
+}
+
+.text{
+    text-align: center;
+    font-style: bold;
+    font-size: 1em;
+    
+}
+.para{
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    color: grey;
+}
+
+.container_two{
+    display: flex;
+    width: 100%;
+}
+.sub{
+    flex: 1;
+}
+.sub{
+    flex: 1;
+}
+
+
+
+
+
+.button{
+    background-color: rgba(124, 88, 182, 0.808);
+    border: none;
+    color:rgb(7, 7, 7);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
