@@ -10,7 +10,7 @@ nav{
     position: sticky;
     top: 0;
     border: 1px solid black;
-    z-index: 99;
+    z-index: 1;
     
 }
 label.logo{
@@ -42,7 +42,7 @@ nav ul li{
 }
 .firstsubcontainer{
     flex: 1;
-    z-index: 1;
+    
 
 }
 
