@@ -126,6 +126,14 @@ nav > ul > li > a:hover{
     margin-bottom: 50px;
     font-size: 18px;  
 }
+.modal{
+    height: 100%;
+    width: 100%;
+    position:fixed;
+    z-index: 55;
+    background-color: rgba(163, 134, 201, 0.363);
+   
+}
 .Popup{
 z-index: 99;
 position: fixed;
@@ -133,6 +141,7 @@ left: 50%;
 top: 50%;
 border: 2px solid;
 background-color: rgb(110, 95, 95);
+transform: translate(-50%, -50%);
 }
 div.title {
     border-bottom: 1px solid;
