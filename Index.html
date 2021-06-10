@@ -3,7 +3,7 @@
     <head>
     <title>basic of html and css</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>   
+      
     </head>
     <body>
             <nav>
@@ -31,12 +31,17 @@
                                 <div class="content">
                                   <div class="close-btn" onclick="togglePopup()">×</div>
                                   <h1 style="font-size: 20px;">CMS COURSE</h1>
-                                  <p style="font-size: 30px;">Register now give the assesment and get 50% off</p>
+                                  <p style="font-size: 20px;">Register now give the assesment and get 50% off</p>
+                                    <form id="form">
+                                        FirstName : <input  type="text"  id="userfirstname" placeholder="firstname" required><br>
+                                        LastName : <input type="text"  id="userlastname" placeholder="lastname" required> <br>
+                                        <input type="submit" value="register">
+                                    </form>
                                 </div>
-                              </div>
+                            </div>
                                
                               <button  class="button" onclick="togglePopup()"> FREE ASSESMENT</button>
-                            </h1>
+                    </h1>
                 </div>
                
                 <div class="firstsubcontainer">
@@ -148,24 +153,7 @@
 
         
     </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <script src="script.js"></script> 
 
 
 
