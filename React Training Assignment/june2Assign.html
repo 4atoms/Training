@@ -1,0 +1,282 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="june2Style.css"/>        
+    </head>
+    <body>
+      <nav>
+          <label><img src="first.png" class="logo"/></label>
+          <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Career</a></li>
+              <li><a href="#" class="box">Contact Us:+46734417275</a></li>
+          </ul>
+      </nav>
+            <div id="myModal" class="modal">   
+            <div class="modal-content">
+                <div class="header"><p>Please Login First<span class="close">&times;</span></p></div>
+                <div class="body1">
+                    <form>
+                    <p>Name:<input type="text" id="name" onkeydown="method1(event)"/></p>
+                       <p>E-mail: <input type="email"   name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"/></p> 
+                    <p>Password:<input type="password"/></p>
+                    <button type="submit" class="popupBtn">Submit</button>
+                    </form>
+                </div>
+                <div class="header"><button type="submit" class="popupBtn">Logout</button></div>
+            </div>
+            </div>
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+          <div class="col-md-6">
+              <div class="col-md-12"></div>
+              <div class="col-md-12"></div>
+              <div class="col-md-12">
+                  <p>DELIVER</p>
+                  <h1>Experiences Using</h1>
+                  <p>Ensure your channels deliver data driven experiences powered by the Suitable CMS,DAM and tools of Martech.</p>
+                  <button id="myBtn" >FREE ASSESSMENT</button>
+              </div>
+              <div class="col-md-12"></div>
+          </div>
+          <div class="col-md-6">
+          <img src="1.png" class="img"/>
+          </div>
+      </div>
+      <div class="col-md-2">
+      </div>
+      </div>
+      <script>
+        var modal = document.getElementById("myModal"); 
+        var btn = document.getElementById("myBtn");
+        var span = document.getElementsByClassName("close")[0];
+        btn.onclick = function() {
+        modal.style.display = "block";
+        }
+        span.onclick = function() {
+        modal.style.display = "none";
+        }
+        window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+        }
+         //Method Logics
+         const method1=(event)=>{
+             if(/[0-9]/.test(event.key)){
+                 event.preventDefault();
+             }
+         }
+        </script>
+      <div class="below">
+          <h5>BRINGING</h5>
+          <p>
+          Business and IT together to
+          <br/>deliver Experiences</p>
+      </div>
+      <div class="content">
+          <div class="col-md-2"></div>
+          <div class="col-md-8">
+              <div class="digital">
+                  <img src="digital.png" class="img1"/>
+                  <h2>Digital Foundation</h2>
+                  <p>A good digital foundation with architectural principles sets the foundation for the landscape of  products</p>
+              </div>
+              <div class="cms">
+                <img src="content.png" class="img1"/>
+                <h2>CMS,DAM,PIM</h2>
+                <p>A powerful content hub is the backbone of delivering Omnichannel <br/> content </p>
+              </div>
+              <div class="headline">
+                  <img src="hybrid.png" class="img1"/>
+                  <h2>Headless/Hybrid</h2>
+                  <p>There is no best CMS.There is always a suitable one.We help you find your next CMS.</p>
+              </div>
+          </div>
+          <div class="col-md-2"></div>
+      </div>
+      <div class="contenthub">
+          <div class="col-md-2"></div>
+          <div class="col-md-8">
+              <div class="col-md-81">
+                  <img src="framework.png"class="img2"/>
+              </div>
+              <div class="col-md-82">
+                       <div></div>
+                       <div>
+                        <p>What WE DO</p>
+                        <h1>We Build Content Hub</h1>
+                        <p>Selecting a CMS/DAM/PIM based on a RFP involving 20+ vendors.</p>
+                        <p>Based of multiple factors,we help you narrow down your search to the suitable CMS/DAM/PIM solution.This is 
+                            in phases that are run with Business and IT together.
+                        </p>
+                        <br/>
+                        <button>REACH OUT TO US</button>
+                       </div>
+                       <div></div>
+                     </div>
+              </div>
+              <div class="col-md-2"></div>
+          </div>
+          <div class="service">
+              <p>OUR SERVICES</p>
+              <h1>What domains do we work on?</h1>
+              <div>
+               <div class="content">
+                <img src="2.png" class="img1"/>
+                <h2>Content</h2>
+                <p>
+                    Content Management system can suceedwith a good
+                    Implementation nd strategy.This is possibly can after
+                    you choose the best cms for your blog
+                </p>
+               </div>   
+               <div class="content">
+                <img src="2.png" class="img1"/>
+                <h2>Digital Asset Mgmt.</h2>
+                <p>
+                    Creating a central asset repository for reusability
+                    and measuring effectiveness of asset production
+                </p>
+               </div>   
+               <div class="content">
+                <img src="5.png" class="img1"/>
+                <h2>Real Time And Data</h2>
+                <p>
+                    Delivering personalised content requires 
+                    realtime data and changing Content.Data
+                    today sits in DMP and CMS along with many 
+                    other systems.
+                </p>
+               </div>   
+              </div>
+              <div>
+                <div class="content">
+                    <img src="8.png" class="img1"/>
+                    <h2>
+                        Translations
+                    </h2>
+                    <p>
+                        Global-Local content strategy works closely 
+                        with translations,transactions and smart
+                        AI/ML based tools for faster Time to Market.
+                    </p>
+                </div>   
+                <div class="content">
+                    <img src="7.png" class="img1"/>
+                    <h2>Reportoing And Analysis</h2>
+                    <p>
+                        Knowing how your content is crucial
+                        for the business.
+                    </p>
+                </div>   
+                <div class="content">
+                    <img src="6.png" class="img1"/>
+                    <h2>Taxonomy</h2>
+                    <p>
+                        Boost your content with the right Taxonomy.
+                        We help you build Taxonomy trees and 
+                        authoring Content in your CMS.
+                    </p>
+                </div>   
+              </div>
+          </div>
+          <div class="choose">
+              <div>
+                  <p>WHY CHOOSE US</p>
+                  <h1>Outstanding Digital Experience</h1>
+                  <p>
+                      Microservices/Platform approach,we help build the strategy for the digital landscape 
+                      for your organization.
+                  </p>
+                  <ul>
+                      <li ><img src="chek_b.png" class="check"/>We help build successful microservices setup and build solutions and JAMstack</li>
+                      <li><img src="chek_o.png" class="check"/>We also help setup Adobe,Salesforce like platforms</li>
+                      <li><img src="chek_g.png" class="check"/>Delivering engaging content for the end consumers is the goal</li>
+                  </ul>
+                  <button>DISCOVER MORE</button>
+              </div>
+              <div>
+                <img src="3.jfif" class="img4"/>
+              </div>
+          </div>
+          <div class="analysis">
+              <div class="col-md-6">
+                <img src="new1.png" class="img4"/>
+              </div>
+              <div class="col-md-6">
+                  <p>ANALYSIS</p>
+                  <h2>Get Free CMS Analysis?</h2>
+                  <p>
+                      -Do your Editors like working with the CMS or they require super 
+                      skills to edit content?
+                    </p>
+                    <p> -Does your IT team struggle with feature releases?</p>
+                    <p>
+                        Based on multiple other aspects,we conduct a simple to
+                        understand analysis to see how is your CMS doing.Contact us for more details.
+                    </p>
+                    <div>
+                        <label>Your Name*</label>
+                        <input type="text"/>
+                    </div>
+                    <div>
+                        <label>Email*</label>
+                        <input type="text"/>
+                    </div>
+                    <div>
+                        <label>Phone No.</label>
+                        <input type="text"/>
+                    </div>
+                    <div>
+                         <label>Company</label>
+                         <input type="text"/>
+                    </div>
+                    <div>
+                        <label>Message:</label>
+                        <textarea rows="3" cols="60"></textarea>
+                    </div>
+                    <div>
+                        <button>SEND MESSAGE</button>
+                    </div>
+              </div>
+          </div>
+          <div class="footer">
+            <div class="footer1">
+               <div>
+                <img src="first.png" class="footerbutton"/>
+               </div>
+               <div>
+                <img src="first2.png" class="footerimg"/> +46734417275,services@4atom.se
+               </div>
+               <div>
+                <img src="	https://4atoms.se/wp-content/uploads/2019/08/img_box_30.png" class="footerim"/>Borgarfjordsgatan 21A,Stockholm,Sweden
+               </div>
+            </div>
+            <hr/>
+            <div class="footer2">
+             <div class="footer21">
+                 <h1>About Us</h1>
+                 <p>
+                     4Atoms have much planned for the future,working with
+                     great clients and continued software development.
+                 </p>
+             </div>
+             <div class="footer22">
+                 <h1>Quick Links</h1>
+                 <p>
+                     <ul>
+                         <li>Home</li>
+                         <li>About Us</li>
+                         <li>Career</li>
+                         <li>Contact Us</li>
+                     </ul>
+                 </p>
+             </div>
+            </div>
+            <div class="footer23">
+                <p>@2020-4Atoms,AB,Sweden.All Rights Reserved.</p>
+            </div>
+            </div>
+    </body> 
+</html>
