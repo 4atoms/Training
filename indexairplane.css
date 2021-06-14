@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.button4 {
+  border-radius: 4px;
+  padding: 20px;
+  margin-left: 30px;
+  background-color: rgba(124, 88, 182, 0.808);
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  text-align: center;
+}
+
+.first,
+.second,
+.third {
+  background-color: #854d4d;
+  flex: 33%;
+  margin-bottom: 50px;
+  font-size: 18px;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.first .eachnumber {
+  background-color: rgb(105, 132, 156);
+  flex: 33%;
+}
+.second .eachnumber {
+  background-color: rgb(102, 158, 127);
+  flex: 25%;
+}
+.third .eachnumber {
+  background-color: rgb(133, 179, 82);
+  flex: 33%;
+}
