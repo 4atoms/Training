@@ -37,7 +37,7 @@ const tryal=(x)=>{
         let d=m/10;
         let r=m%10;
         console.log(r);
-        for(let c=0;c<d;c++)
+        for(let c=1;c<d;c++)
         {
             
             row1+=`<div class="seat">SEAT</div>`;
