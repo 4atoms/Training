@@ -141,7 +141,8 @@ body{
     width: 50px;
     border: 1px solid gray;
    cursor:pointer;
-   background-color:white;
+   background-color:#00BFFF;
+   border-radius: 5px;
 }
 .walk{
     padding-left:30px;
