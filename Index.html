@@ -8,150 +8,33 @@
     <link rel="stylesheet" href="style.css" >
 </head>
 <body>
-    <div>
     <nav class="navbar">
-        <div class="logo">FlyHigh</div>
-        <div class="navbar-link">
-            <ul>
-                <li> <a href="#" >Flight</a></li>
-                <li> <a href="#" >Hotels</a></li>
-                <li> <a href="#" >Car</a></li>
-            </ul>
+        <div class = "elemflex1">
+           <h1>Fly High</h1>
+        </div>
+        <div class = "elemflex2">
+            <li>  <a class = "font" href="#">Flight</a> </li>
+            <li>  <a class = "font" href="#">Hotel</a> </li>
+            <li>  <a class = "font" href="#">Car</a> </li>
         </div>
     </nav>
-</div>
-   
+
+    <div class="container">
     
+    <div class="card">
 
-    <div class="popup" id="popup-1">
-        <div class="overlay"></div>
-        <div class="content">
-          <div class="close-btn" onclick="togglePopup()">×</div>
-    
-        <div style="border:1px solid gray; width: 400px; margin-bottom: 10px; border-radius: 5px;">
-            <table>
-                <tr>
-                    <td><div class="seat">1</div></td>
-                    <td><div class="seat">2</div></td>
-                    <td class="walk">  </td>
-                    <td><div class="seat">3</div></td>
-                    <td><div class="seat">4</div></td>
-                    <td class="walk">  </td>
-                    <td><div class="seat">5</div></td>
-                    <td><div class="seat">6</div></td>
-                </tr>
-                <tr>
-                    <td><div class="seat">7</div> </td>
-                    <td><div class="seat">8</div></td>
-                    <td class="walk">  </td>
-                    <td><div class="seat">9</div></td>
-                    <td><div class="seat">10</div></td>
-                    <td class="walk">  </td>
-                    <td><div class="seat">11</div></td>
-                    <td><div class="seat">12</div></td>
-                </tr>
-                <tr>
-                    <td><div class="seat">13</div> </td>
-                    <td><div class="seat">14</div></td>
-                    <td class="walk">  </td>
-                    <td><div class="seat">15</div></td>
-                    <td><div class="seat">16</div></td>
-                    <td class="walk">  </td>
-                    <td><div class="seat">17</div></td>
-                    <td><div class="seat">18</div></td>
-
-                </tr>
-                <tr>
-                    <td><div class="seat">19</div> </td>
-                    <td><div class="seat">20</div></td>
-                    <td class="walk">  </td>
-                    <td><div class="seat">21</div></td>
-                    <td><div class="seat">22</div></td>
-                    <td class="walk">  </td>
-                    <td><div class="seat">23</div></td>
-                    <td><div class="seat">24</div></td>
-
-                </tr>
-                <tr>
-                    <td><div class="seat">25</div> </td>
-                    <td><div class="seat">26</div></td>
-                    <td class="walk">  </td>
-                    <td><div class="seat">27</div></td>
-                    <td><div class="seat">28</div></td>
-                    <td class="walk">  </td>
-                    <td><div class="seat">29</div></td>
-                    <td><div class="seat">30</div></td>
-                </tr>
-                <tr>
-                    <td><div class="seat">31</div> </td>
-                    <td><div class="seat">32</div></td>
-                    <td class="walk">  </td>
-                    <td><div class="seat">33</div></td>
-                    <td><div class="seat">34</div></td>
-                    <td class="walk">  </td>
-                    <td><div class="seat">35</div></td>
-                    <td><div class="seat">36</div></td>
-                </tr>
-                <tr>
-                    <td><div class="seat">37</div> </td>
-                    <td><div class="seat">38</div></td>
-                    <td class="walk">  </td>
-                    <td><div class="seat">39</div></td>
-                    <td><div class="seat">40</div></td>
-                    <td class="walk">  </td>
-                    <td><div class="seat">41</div></td>
-                    <td><div class="seat">42</div></td>
-                </tr>
-                <tr>
-                    <td><div class="seat">43</div> </td>
-                    <td><div class="seat">44</div></td>
-                    <td class="walk">  </td>
-                    <td><div class="seat">45</div></td>
-                    <td><div class="seat">46</div></td>
-                    <td class="walk">  </td>
-                    <td><div class="seat">47</div></td>
-                    <td><div class="seat">48</div></td>
-                </tr>
-                <tr>
-                    <td><div class="seat">49</div> </td>
-                    <td><div class="seat">50</div></td>
-                    <td class="walk">  </td>
-                    <td><div class="seat">51</div></td>
-                    <td><div class="seat">52</div></td>
-                    <td class="walk">  </td>
-                    <td><div class="seat">53</div></td>
-                    <td><div class="seat">54</div></td>
-                </tr>
-            </table>
-        </div>
-    </div>
-  
-</div>
-
-<div class="container">
-    
-        <div class="card">
-            <div class="circle">
-                <img class="card-image" src="Spicejet.png">
+        <div id = "data" class = "main">
+            <div id = "flights">
+                <div class = "flightHeader">Flights Details :</div>
+                <button class = "displayButton" id = "clickId" onclick="displayFlights()">Hold Tight We Are Fetching Flight For YOu</button>
             </div>
-            <div class="content">
-                <div id="data"></div>
-                    <button  class="button" onclick="togglePopup()"> Check Seat Availability </button>
-                </div>
-        </div>
-</div>
-<!--
-<div class="grid">
-    <div class="grid-item">
-        <div class="card">
-            <img class="card-image" src="go air.jpg">
-            <div class="card-containt"></div>
-            <div id="data"></div>
-            <button  class="button" onclick="togglePopup()"> Check Seat Availability </button>
         </div>
     </div>
-</div>-->
+    </div>
 
+
+ <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
+
+
 </html>
