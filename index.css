@@ -93,7 +93,7 @@ i{
 }
 .middle-container {
     margin-top: 50px;
-    border: 1px solid;
+    /* border: 1px solid; */
     overflow-x: hidden;
     width: 1400px;
 }
@@ -103,7 +103,7 @@ i{
     height: 532px;
     position: relative;
     display: inline-block;
-    border: 1px solid;
+    /* border: 1px solid; */
     /* text-align: center; */
     vertical-align: middle;
     padding: 120px 59px 0px 0px;
@@ -142,10 +142,10 @@ i{
     border: none;
 }
 .image-container {
-    background-color: blue;
+    /* background-color: blue; */
     right: 10px;
     width: 50%;
-    border: 1px solid;
+    /* border: 1px solid; */
     float: right;
     /* margin: 0px 0px 0px 0px; */
     margin-right: 0px;
@@ -156,7 +156,7 @@ i{
 .image-container img {
     max-width: 100%;
     width: 758px;
-    border: 1px solid;
+    /* border: 1px solid; */
     float: left;
     top: 10px;
 }
