@@ -518,7 +518,7 @@ const tryal=(x)=>{
 let seatpattern=[1,10,3,4,7,8,2,5,6,9];
 let seatpattern2=[1,7,3,4,8,9,5,6,10,2];
 const viewBooking=()=>{
-     let p=52;
+     let p=document.getElementById("pass").value;
     // for(let i=1;i<=p;i++)
     // {
     //     let d=i/10;
