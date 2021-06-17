@@ -1,0 +1,86 @@
+body{
+    margin:0px;
+    background-image: url('2.jpg');
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+  height:12%;
+  width:100%;
+  position:sticky;
+  z-index:1;
+  color:black;
+  border: 1px solid black;
+  background-color: white;
+}
+.planeLogo{
+    margin-top:10px;
+    height:50px;
+    width:100px;
+}
+nav ul{
+    float: right;
+    margin-right:200px;
+    margin-top:25px;
+    font-size: 20px;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    padding: 22px;
+    margin-top:20px;
+    cursor: pointer;
+}
+button{
+    padding: 10px;
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    border-radius: 5%;
+    font-size: medium;
+    margin-top:10px;
+}
+table{
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 100px;
+}
+table tr{
+    text-align: center;
+    padding:50px;
+}
+img{
+    width:100%;
+    height:100%;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    text-align: center;
+  }
+.first,
+.second,
+.third {
+  background-color: #854D4D;
+  flex: 33%;
+  margin-bottom: 50px;
+  font-size: 18px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.first .eachnumber {
+  background-color:aliceblue;
+  flex: 33%;
+}
+.second .eachnumber {
+  background-color:aqua;
+  flex: 25%;
+}
+.third .eachnumber {
+  background-color:azure;
+  flex: 33%;
+}
