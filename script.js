@@ -16,7 +16,7 @@ const displayFlights = () => {
     flightArray.forEach(f => {
 
         var outerElement = document.createElement("div")
-        outerElement.classList.add('outerEle')
+        outerElement.classList.add('outerEle')  
         var elem = document.createElement("div");
         var but = document.createElement("button");
         but.id = i;
@@ -123,6 +123,16 @@ const checkAvailability = (index) => {
 
 const closePopup =() => {
     const pop = document.getElementById("parent")
-    pop.style.display = "none"
-    element.removeChild(pop)
-}
+      pop.style.display = "none"
+      element.removeChild(pop)
+  }
+
+ window.addEventListener('mouseup', function(){
+    var pop = document.getElementById('parent');
+    if(event.target != null){
+      pop.style.display = "none"
+      element.removeChild(pop)
+    }
+  });
+
+ 
