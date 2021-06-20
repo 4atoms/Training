@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.button4 {
+  border-radius: 4px;
+  padding: 20px;
+  margin-left: 30px;
+  background-color: rgba(124, 88, 182, 0.808);
+}
+
+.container {
+  position: relative;
+  font-family: Arial;
+}
+
+#flightscollectionAPI {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.flex-container {
+  gap: 3px;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  text-align: center;
+}
+
+.first,
+.second,
+.third {
+  background-color: #854d4d;
+  flex: 33%;
+  margin-bottom: 30px;
+  font-size: 18px;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.first .eachnumber {
+  border: 1px solid rgba(0, 0, 0, 0.767);
+  background-color: bisque;
+  flex: 33%;
+}
+.second .eachnumber {
+  border: 1px solid rgba(0, 0, 0, 0.767);
+  background-color: bisque;
+  flex: 25%;
+}
+.third .eachnumber {
+  border: 1px solid rgba(0, 0, 0, 0.767);
+  background-color: bisque;
+  flex: 33%;
+}
