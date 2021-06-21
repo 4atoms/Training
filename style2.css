@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+  }
+  
+body{
+    background-image: url("https://wallpapercave.com/wp/wp4712331.jpg");
+    background-size:cover;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+/* Navigation */
+nav{
+    display: flex;
+    position: sticky;
+    z-index: 9999;
+    top: 0;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+  
+}
+
+nav ul li{
+    
+    list-style-type: none;
+    
+}
+
+nav > ul > li > a{
+    color: rgb(0, 0, 0);
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    font-size: 125%;
+}
+nav > ul > li > a:hover{
+    color: rgb(62, 35, 126);
+    /* font-size: 250%; */
+}
+.logo-img{
+    float: left;
+    position: relative;
+    margin: 10px 15px 15px 10px;
+}
+.top-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     background-color: rgb(24,111, 174); 
+    border: 2px solid black;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+.main{
+    display: flex;
+    position: relative;
+
+}
+.content{
+    width:23%;
+    position: relative;
+
+
+}
+.SeatDisplay{
+  
+    position: fixed;
+    margin-left: 390px;
+    margin-top: 10px;
+} 
+.content div{
+margin-bottom: 50px;
+margin-right: 20px;
+margin-left: 20px;
+background-color:rgba(89, 127, 151);
+font-size: large;
+height: auto;
+text-align: center;
+justify-content: center;
+border-radius: 20px;
+vertical-align: middle;
+margin-top: 2px;
+
+}
+.button{
+    background-color: chartreuse;
+}
+
+.main2{
+    position: fixed;
+    margin-top: 2%;
+    margin-left: 400px;
+    display:flex;
+    z-index: 99;
+    /* overflow-y: visible; */
+    width: 65%;
+    }
+.column,.column1,.column2,.column3{
+        height:fit-content;
+        margin-top: 120px;
+        width: 200px;
+        margin-left: 10px;
+        /* border: 1px solid;  */
+        display: inline-flex;
+    
+    }
+/* .column1{
+        height: fit-content;
+        width: 200px;
+        margin-left: 20px;
+        
+        display: flex;
+    
+    }
+.column2{
+        height: fit-content;
+        width: 200px;
+        margin-left: 20px;
+        
+        display: flex;
+    
+    }
+.column3{
+        height: fit-content;
+        width: 200px;
+        margin-left: 20px;
+        
+        display: flex;
+    
+    } */
+.icol{
+        
+        width:33.33%;
+    
+    
+    }
+.seat{
+        
+        display: flex;
+        border: 1px solid; 
+        font-size:10px;
+        height: 50px;
+        background-color:rgb(196, 203, 216);
+        align-items: center;
+        justify-content: center;
+        
+        
+    }
+    .seat:hover{
+        
+        display: flex;
+        border: 1px solid; 
+        height: 50px;
+        background-color: rgb(127, 255, 133);
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        
+        
+    }    
+     .icol>div>div{
+    
+        color: red;
+    } 

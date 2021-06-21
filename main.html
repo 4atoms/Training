@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+    <link rel="stylesheet" type="text/css" href="style2.css">
+<title>Airlines</title>
+</head>
+<body>
+    
+
+<div class="top-div">
+    <img class="logo-img" src="resources/logo.png" width=5% height=3% ALT="align box" ALIGN=CENTER>
+    <nav>
+        <ul>
+            
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+            
+        </ul>
+    </nav>
+</div>
+<!-- This section will display the generated llst of flights -->
+<div class="main" id="main">
+<div class="content" id="content">
+    <button style="size: 50px" onclick="viewFlights()">View Flights</button>
+</div>
+
+<!-- Title and input for view booking of passengers -->
+<div class="main2" id="main2">
+            <div style="color: red;position: fixed;font-size: 300%;align-items: center;justify-content:center;">SEAT LAYOUT</div>
+            <div class="SeatAllocation" style="margin-top:70px;width: 100%;"><input id="pass"> </input><button id="viewBooking" onclick="viewBooking()">View Booking</button></div>
+</div>
+
+<!-- Section for displaying seats -->
+<div class="SeatDisplay">   
+    <div class="column1" id="column1">
+            <div class="icol" id="icol"></div>
+            <div class="icol" id="icol"></div>
+            <div class="icol" id="icol"></div>
+    </div>
+    <div class="column1"  id="column2">
+            <div class="icol" id="icol"></div>
+            <div class="icol" id="icol"></div>
+            <div class="icol" id="icol"></div>
+            <div class="icol" id="icol"></div>
+    </div>
+    <div class="column1"  id="column3">
+            <div class="icol" id="icol"></div>
+            <div class="icol" id="icol"></div> 
+            <div class="icol" id="icol"></div>
+    </div>
+</div>    
+</div>  
+    
+   
+</div>
+<script src="script.js"></script>
+</body>
+</html>
