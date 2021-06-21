@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="indexairplane.css">
+</head>
+    
+<body>
+    <h1>AIRLINES</h1>
+    <div id="flightscollection">
+
+    </div>
+
+    <div class="flex-container flight-seats">
+        <div class="first" id="first">
+        </div>
+        <div class="second" id="second">
+        </div>
+        <div class="third" id="third">
+        </div>
+    </div>
+
+
+    <script>
+
+        const flights = [
+            { flightname: "Kingfisher", seats: 45 },
+             { flightname: "Vistara", seats: 56 },
+            { flightname: "Indigo", seats: 137 },
+            { flightname: "Air India", seats: 137 },
+            { flightname: "Spice Jet", seats: 137 },
+            { flightname: "Go Air", seats: 137 }
+        ];
+
+        function DisplayFlight()
+        {   
+            for (i = 0; i < flights.length;i++)
+            {       
+                    // let flightcollection= flights[i].flightname;
+                    // console.log(flightcollection);
+                var onediv=document.createElement('div');
+                onediv.id = i+'block';
+                onediv.textContent=flights[i].flightname+"  "+flights[i].seats;
+                
+                flightscollection.appendChild(onediv);
+                document.getElementById(i + 'block').innerHTML += `<button class='button4'  id=btn-${i} onclick="OpenModal(flights, ${i})"></button>`;
+
+                flightscollection.appendChild(onediv);           
+            }
+
+        }
+        
+        function OpenModal(flights, btn)
+        {
+            document.getElementById("first").innerHTML =""
+            document.getElementById("second").innerHTML = ""
+            document.getElementById("third").innerHTML = ""
+
+            console.log(flights, btn);
+            let CountOfSeats= flights[btn].seats;
+                console.log(CountOfSeats);
+                for (j = 1; j <= CountOfSeats; j++)
+                {   
+
+                    for(k=0;k<3;k++)
+                    {   
+                        // if (j > CountOfSeats) {
+                        //     document.getElementById("first").style.visibility=hidden;
+                        //     break;
+                        // }
+                        document.getElementById("first").innerHTML+= `<div class= "eachnumber" id="eachnumber${j}">` + [j] + '</div>';
+                        j= j + 1;
+                    }
+
+                    for (l = 0; l< 4; l++) 
+                    {
+                        // if (j > CountOfSeats) {
+                        //     document.getElementById("second").innerHTML += '<div class="eachnumber" id="eachnumberwaste"> </div>';
+                        //     j=j+1;
+                        //     break;
+                        // }
+                        document.getElementById("second").innerHTML += `<div class= "eachnumber" id="eachnumber${j}">` + [j] + '</div>';
+                        j = j + 1;
+                    }
+
+                    for (m = 0; m< 3; m++) 
+                    {
+                        // if (j > CountOfSeats) {
+                        //     document.getElementById("eachnumber${j}").style.visibility = hidden;
+                        //     // document.getElementById("third").style.visibility = "hidden";
+                        //     break;
+                        // }
+                        if(m<2)
+                        {
+                            document.getElementById("third").innerHTML += `<div class="eachnumber" id="eachnumber${j}">` + [j] + '</div>';
+                            j = j + 1;
+                        }
+
+                        else if (m = 2) 
+                        {
+                            document.getElementById("third").innerHTML += `<div class="eachnumber" id="eachnumber${j}">` + [j] + '</div>';
+                        }
+
+                    }
+                }
+        }
+        DisplayFlight();       
+    </script>
+
+</body>
+</html>
