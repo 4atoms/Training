@@ -8,7 +8,6 @@ body{
 }
 .firstDiv {
     display: flex;
-    /* justify-content: space-around; */
     align-items: center;
     display: inline-block;
     margin: 30px 140px 30px 20px;
@@ -23,7 +22,6 @@ body{
     text-decoration: none;
     font-size: 16px;
     font-family: Rubik;
-    /* display: inline-block; */
     justify-content: space-around;
 }
 .about {
@@ -31,7 +29,6 @@ body{
 }
 .nav-links img {
     width: 20%;
-    /* align-items: left; */
     padding: 0px 0px 0px 125px;
 }
 .logo {
@@ -46,8 +43,6 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* background-color: aliceblue; */
-    /* width: 40%; */
     float: right;
     margin: 0px 0px 10px 0px;
 }
@@ -58,7 +53,6 @@ body{
     position: relative;
     white-space: nowrap;
     padding: 0px 0px 0px 10px;
-    /* overflow: hidden; */
 }
 .nav-links li a {
     color: #1c538a;
@@ -93,70 +87,62 @@ i{
 }
 .middle-container {
     margin-top: 50px;
-    /* border: 1px solid; */
     overflow-x: hidden;
     width: 1400px;
 }
 .deliver {
-    /* background-color: red; */
     width: 45%;
     height: 532px;
     position: relative;
     display: inline-block;
-    /* border: 1px solid; */
-    /* text-align: center; */
     vertical-align: middle;
     padding: 120px 59px 0px 0px;
 }
 .deliverParagraph {
     padding: 0px 0px 0px 145px;
     color: #696687;
-    font-family: Nunito;
+    font-family: Nunito-semibold;
+    font-size: 18px;
 }
 .P-Text{
     color: #3B3663;
-    /* margin-left: 140px; */
 }
 .deliver h1 {
     font-size: 60px;
     margin-left: 140px;
+    font-family: Nunito-ExtraBold;
 }
 .deliver h5 {
     color: #3B3663;
     margin-left: 145px;
     font-size: 22px;
+    font-family: Nunito;
 }
 #TextId {
     margin-left: 143px;
 }
 .assessmentButton {
     margin: 30px 0px 0px 145px;
-    font-family: 'Rubik';
+    font-family: Rubik-Bold;
     font-size: 12px;
     background-image: linear-gradient(96deg, #6254e7 0%, #9289f1 100%);
     background-color: transparent;
     color: #ffffff;
     border-radius: 4px;
     padding: 16px 33px 16px 33px;
-    /* box-shadow: none; */
     border: none;
 }
 .image-container {
-    /* background-color: blue; */
     right: 10px;
     width: 50%;
-    /* border: 1px solid; */
     float: right;
-    /* margin: 0px 0px 0px 0px; */
     margin-right: 0px;
-    /* position: absolute; */
     left: -500px;
     justify-content: flex-end;
 }
 .image-container img {
     max-width: 100%;
     width: 758px;
-    /* border: 1px solid; */
     float: left;
     top: 10px;
 }
@@ -180,14 +166,58 @@ i{
 }
 .image-collection {
     display:flex;
-    margin: 50px 0px 0px 0px;
+    margin: 50px 40px 0px 65px;
+    gap: 20px;
 }
 .digital img {
     width: 140px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .cms img {
     width: 135px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .headless img {
     width: 185px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.digital {
+    width: 30%;
+    margin: 0px 0px 0px 30px;
+    background-color: #f9f8ff;
+    text-align: center;
+    line-height: 30px;
+}
+.cms {
+    width: 30%;
+    background-color: #FFFCF6;
+    text-align: center;
+    line-height: 30px;
+}
+.headless {
+    width: 30%;
+    background-color: #F0FFFC;
+    text-align: center;
+    line-height: 30px;
+}
+.image-collection h5 {
+    font-family: Nunito;
+    font-size: 20px;
+    color: #3B3663;
+    font-weight: bold;
+}
+.digital h5, p{
+    padding: 0px 50px 0px 50px;
+}
+.cms h5 p {
+    padding: 0px 50px 0px 50px;
+}
+.headless h5 p {
+    padding: 0px 50px 0px 50px;
 }
